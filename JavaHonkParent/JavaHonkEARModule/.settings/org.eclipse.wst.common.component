@@ -5,7 +5,7 @@
         <dependent-module archiveName="JavaHonkJARModule-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/JavaHonkJARModule/JavaHonkJARModule">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="JavaHonkWARModule-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/JavaHonkWARModule/JavaHonkWARModule">
+        <dependent-module archiveName="JavaHonkEJBModule-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/JavaHonkEJBModule/JavaHonkEJBModule">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

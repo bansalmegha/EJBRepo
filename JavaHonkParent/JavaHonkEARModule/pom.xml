@@ -15,9 +15,9 @@
   	</dependency>
   	<dependency>
   		<groupId>JavaHonkParent</groupId>
-  		<artifactId>JavaHonkWARModule</artifactId>
+  		<artifactId>JavaHonkEJBModule</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
-  		<type>war</type>
+  		<type>ejb</type>
   	</dependency>
   </dependencies>
 </project>
