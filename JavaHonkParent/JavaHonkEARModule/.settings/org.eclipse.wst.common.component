@@ -2,10 +2,13 @@
     <wb-module deploy-name="JavaHonkEARModule-0.0.1-SNAPSHOT">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
-        <dependent-module archiveName="JavaHonkJARModule-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/JavaHonkJARModule/JavaHonkJARModule">
+        <dependent-module archiveName="JavaHonkEJBModule-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/JavaHonkEJBModule/JavaHonkEJBModule">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="JavaHonkEJBModule-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/JavaHonkEJBModule/JavaHonkEJBModule">
+        <dependent-module archiveName="JavaHonkWARModule-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/JavaHonkWARModule/JavaHonkWARModule">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="JavaHonkJARModule-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/JavaHonkJARModule/JavaHonkJARModule">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

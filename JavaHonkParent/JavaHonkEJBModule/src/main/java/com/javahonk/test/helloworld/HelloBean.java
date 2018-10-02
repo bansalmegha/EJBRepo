@@ -2,6 +2,7 @@ package com.javahonk.test.helloworld;
 
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
+import javax.script.ScriptEngineManager;
 
 /**
  * Session Bean implementation class HelloBean
@@ -9,7 +10,7 @@ import javax.ejb.Stateless;
 @Stateless
 @LocalBean
 public class HelloBean implements Hello {
-
+	ScriptEngineManager manager = new ScriptEngineManager(null);
     /**
      * Default constructor. 
      */
