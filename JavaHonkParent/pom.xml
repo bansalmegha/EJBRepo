@@ -9,5 +9,6 @@
     <module>JavaHonkJARModule</module>
     <module>JavaHonkWARModule</module>
     <module>JavaHonkEARModule</module>
+    <module>JavaHonkEJBModule</module>
   </modules>
 </project>
