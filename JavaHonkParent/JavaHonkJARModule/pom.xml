@@ -7,9 +7,9 @@
     <artifactId>JavaHonkParent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
+  <groupId>JavaHonkParent</groupId>
   <artifactId>JavaHonkJARModule</artifactId>
-  
+  <version>0.0.1-SNAPSHOT</version>
   <name>JavaHonkJARModule</name>
   <url>http://maven.apache.org</url>
   <properties>

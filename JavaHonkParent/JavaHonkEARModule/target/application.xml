@@ -5,9 +5,6 @@
 <application>
   <display-name>JavaHonkEARModule</display-name>
   <module>
-    <ejb>JavaHonkEJBModule-0.0.1-SNAPSHOT.jar</ejb>
-  </module>
-  <module>
     <web>
       <web-uri>JavaHonkWARModule-0.0.1-SNAPSHOT.war</web-uri>
       <context-root>/JavaHonkWARModule</context-root>

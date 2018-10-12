@@ -10,20 +10,14 @@
   <dependencies>
   	<dependency>
   		<groupId>JavaHonkParent</groupId>
-  		<artifactId>JavaHonkEJBModule</artifactId>
+  		<artifactId>JavaHonkJARModule</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
-  		<type>ejb</type>
   	</dependency>
   	<dependency>
   		<groupId>JavaHonkParent</groupId>
   		<artifactId>JavaHonkWARModule</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   		<type>war</type>
-  	</dependency>
-  	<dependency>
-  		<groupId>JavaHonkParent</groupId>
-  		<artifactId>JavaHonkJARModule</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
 </project>
