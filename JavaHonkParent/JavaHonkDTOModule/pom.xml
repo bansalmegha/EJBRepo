@@ -5,14 +5,7 @@
     <artifactId>JavaHonkParent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>JavaHonkEARModule</artifactId>
-  <packaging>ear</packaging>
-  <dependencies>
-  	<dependency>
-  		<groupId>JavaHonkParent</groupId>
-  		<artifactId>JavaHonkEJBModule</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  		<type>ejb</type>
-  	</dependency>
-  </dependencies>
+  <artifactId>JavaHonkDTOModule</artifactId>
+  <name>JavaHonkDTOModule</name>
+  <description>JavaHonkDTOModule</description>
 </project>

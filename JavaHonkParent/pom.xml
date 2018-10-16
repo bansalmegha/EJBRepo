@@ -10,8 +10,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>JavaHonkJARModule</module>
-    <module>JavaHonkWARModule</module>
     <module>JavaHonkEARModule</module>
+    <module>JavaHonkEJBModule</module>
+    <module>JavaHonkDTOModule</module>
   </modules>
 </project>
